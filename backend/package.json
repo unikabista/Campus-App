@@ -8,7 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
     "@supabase/supabase-js": "^2.98.0",
@@ -18,5 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "description": ""
 }
