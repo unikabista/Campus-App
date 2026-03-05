@@ -65,12 +65,20 @@
   padding: 1.5rem 1.25rem;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card.clickable {
   cursor: pointer;
 }
 
-.feature-card:hover {
+.feature-card.clickable:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card.disabled {
+  opacity: 0.55;
+  cursor: default;
 }
 
 .feature-icon {
@@ -93,16 +101,15 @@
 }
 
 .card-btn {
+  display: inline-block;
   background: #1a1a2e;
   color: white;
-  border: none;
   padding: 0.4rem 1.2rem;
   border-radius: 6px;
   font-size: 0.82rem;
-  cursor: pointer;
-  transition: background 0.2s;
 }
 
-.card-btn:hover {
-  background: #16213e;
+.card-btn.coming-soon {
+  background: #e5e7eb;
+  color: #999;
 }
